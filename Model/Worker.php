@@ -1,5 +1,5 @@
 <?php
-namespace Api2cart\BridgeConnector\Model;
+namespace KTV\BridgeConnector\Model;
 
 use Magento\Backend\Helper\Data;
 use Magento\Framework\App\Filesystem\DirectoryList;

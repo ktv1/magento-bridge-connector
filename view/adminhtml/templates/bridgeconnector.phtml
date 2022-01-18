@@ -1,11 +1,11 @@
-<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Api2cart_BridgeConnector::css/styles.css')?>">
-<script src="<?php echo $block->getViewFileUrl('Api2cart_BridgeConnector::js/jquery/script.js')?>" ></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('KTV_BridgeConnector::css/styles.css')?>">
+<script src="<?php echo $block->getViewFileUrl('KTV_BridgeConnector::js/jquery/script.js')?>" ></script>
 
 <div class="section-config active">
   <input id="bridge_general-state" name="config_state[bridge_general]" type="hidden" value="1">
   <div id="bridge_general">
     <script>
-      var SELF_PATH = '<?php  /* @var $block \Api2cart\BridgeConnector\Block\Adminhtml\BridgeConnector*/ echo $block->getRouteUrl('bridgeconnector/bridgeconnector'); ?>';
+      var SELF_PATH = '<?php  /* @var $block \KTV\BridgeConnector\Block\Adminhtml\BridgeConnector*/ echo $block->getRouteUrl('bridgeconnector/bridgeconnector'); ?>';
       var bridgeInstalledMsg = '<b>Congratulations! The plugin is installed!</b><br><br><b>Please note.</b> Store data interaction works if you are integrated with the service only.It enables to retrieve, synchronize, and manipulate various information on products, categories, customers, and orders from the store.';
       var bridgeNotInstalledMsg = '<p id="connector-installed-txt" style="display: block;">The connection bridge will be installed automatically. Just click the button below.</p>';
       var buttonInstallMsg = 'Install Connector';

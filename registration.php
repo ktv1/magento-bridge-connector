@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Api2cart_BridgeConnector',
+    'KTV_BridgeConnector',
     __DIR__
 );

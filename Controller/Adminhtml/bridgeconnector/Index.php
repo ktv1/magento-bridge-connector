@@ -1,6 +1,6 @@
 <?php
 
-namespace Api2cart\BridgeConnector\Controller\Adminhtml\bridgeconnector;
+namespace KTV\BridgeConnector\Controller\Adminhtml\bridgeconnector;
 
 class Index extends \Magento\Backend\App\Action
 {

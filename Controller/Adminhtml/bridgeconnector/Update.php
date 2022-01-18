@@ -1,5 +1,5 @@
 <?php
-namespace Api2cart\BridgeConnector\Controller\Adminhtml\bridgeconnector;
+namespace KTV\BridgeConnector\Controller\Adminhtml\bridgeconnector;
 
 class Update extends \Magento\Backend\App\Action
 {
@@ -10,7 +10,7 @@ class Update extends \Magento\Backend\App\Action
    */
     public function execute()
     {
-        $worker = new \Api2cart\BridgeConnector\Model\Worker;
+        $worker = new \KTV\BridgeConnector\Model\Worker;
 
         try {
             $this->getResponse()

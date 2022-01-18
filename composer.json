@@ -6,7 +6,7 @@
   },
   "authors": [
     {
-      "name": "Api2cart"
+      "name": "KTV"
     }
   ],
   "type": "magento2-module",
@@ -14,7 +14,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Api2cart\\BridgeConnector\\": ""
+      "KTV\\BridgeConnector\\": ""
     }
   }
 }

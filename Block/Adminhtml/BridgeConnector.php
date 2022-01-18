@@ -1,5 +1,5 @@
 <?php
-namespace Api2cart\BridgeConnector\Block\Adminhtml;
+namespace KTV\BridgeConnector\Block\Adminhtml;
 
 class BridgeConnector extends \Magento\Backend\Block\Template
 {
@@ -15,7 +15,7 @@ class BridgeConnector extends \Magento\Backend\Block\Template
     {
         parent::_construct();
 
-        $worker = new \Api2cart\BridgeConnector\Model\Worker;
+        $worker = new \KTV\BridgeConnector\Model\Worker;
         $this->_storeKey = $worker->readStoreKey();
 
         if ($worker->getBridgeStatus() === 3) {
