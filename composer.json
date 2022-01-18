@@ -1,5 +1,5 @@
 {
-  "name": "api2cart/module-bridgeconnector",
+  "name": "ktv/module-bridgeconnector",
   "description": "Bridge Connector",
   "require": {
     "php": ">=7.0"

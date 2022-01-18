@@ -6,7 +6,7 @@
     <body>
         <referenceBlock name="content">
             <block class="Api2cart\BridgeConnector\Block\Adminhtml\BridgeConnector"
-                   name="api2cart_bridgeconnector_block_bridgeconnector"
+                   name="ktv_bridgeconnector_block_bridgeconnector"
                    template="bridgeconnector.phtml"/>
         </referenceBlock>
     </body>
