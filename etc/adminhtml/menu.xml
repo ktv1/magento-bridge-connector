@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Api2cart_BridgeConnector::bridgeconnector"
+             title="Api2cart BridgeConnector"
+             module="Api2cart_BridgeConnector"
+             sortOrder="100"
+             action="bridgeconnector/bridgeconnector"
+             resource="Api2cart_BridgeConnector::bridgeconnector"/>
+    </menu>
+</config>
